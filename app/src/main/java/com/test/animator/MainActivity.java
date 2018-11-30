@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Toast;
 
+import com.test.animator.activity.DrawableActivity;
 import com.test.animator.activity.FrameAnimationActivity;
 import com.test.animator.activity.TweenAnimationActivity;
 import com.test.animator.activity.ValueAnimatorActivity;
@@ -62,6 +63,9 @@ public class MainActivity extends BaseActivity implements OnItemClickListener {
                 break;
             case 2 :
                 ValueAnimatorActivity.actionStart(mContext);
+                break;
+            case 3 :
+                DrawableActivity.actionStart(mContext);
                 break;
             default:
                 Toast.makeText(MainActivity.this, "敬请期待！", Toast.LENGTH_SHORT).show();

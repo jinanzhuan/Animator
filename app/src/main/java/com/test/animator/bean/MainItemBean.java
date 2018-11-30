@@ -48,7 +48,7 @@ public class MainItemBean {
         list.add(bean);
 
         bean = new MainItemBean();
-        bean.setName("其他");
+        bean.setName("Android画布");
         list.add(bean);
 
         bean = new MainItemBean();
