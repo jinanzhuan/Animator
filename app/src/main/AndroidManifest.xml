@@ -20,6 +20,7 @@
         <activity android:name=".activity.TweenAnimationActivity"/>
         <activity android:name=".activity.ValueAnimatorActivity"/>
         <activity android:name=".activity.DrawableActivity"/>
+        <activity android:name=".activity.PaintActivity"/>
     </application>
 
 </manifest>

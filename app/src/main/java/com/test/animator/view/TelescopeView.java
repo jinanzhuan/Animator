@@ -50,7 +50,7 @@ public class TelescopeView extends View {
         int x = (int) event.getX();
         int y = (int) event.getY();
         if(mDrawable != null) {
-            mMatrix.setTranslate(RADIUS - x*FACTOR, RADIUS - y*FACTOR);
+            mMatrix.setTranslate(RADIUS - x*FACTOR - 100, RADIUS - y*FACTOR);
             mDrawable.getPaint().getShader().setLocalMatrix(mMatrix);
             mDrawable.setBounds(x - RADIUS, y - RADIUS, x + RADIUS, y + RADIUS);
             invalidate();

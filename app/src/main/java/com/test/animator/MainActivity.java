@@ -7,6 +7,7 @@ import android.widget.Toast;
 
 import com.test.animator.activity.DrawableActivity;
 import com.test.animator.activity.FrameAnimationActivity;
+import com.test.animator.activity.PaintActivity;
 import com.test.animator.activity.TweenAnimationActivity;
 import com.test.animator.activity.ValueAnimatorActivity;
 import com.test.animator.adapter.DividerGridItemDecoration;
@@ -66,6 +67,9 @@ public class MainActivity extends BaseActivity implements OnItemClickListener {
                 break;
             case 3 :
                 DrawableActivity.actionStart(mContext);
+                break;
+            case 4 :
+                PaintActivity.actionStart(mContext);
                 break;
             default:
                 Toast.makeText(MainActivity.this, "敬请期待！", Toast.LENGTH_SHORT).show();
