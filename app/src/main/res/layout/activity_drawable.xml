@@ -4,8 +4,35 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
+    <com.test.animator.view.BitmapShadowView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.test.animator.view.BitmapShaderView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.test.animator.view.AvatorView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="gone"/>
+
     <com.test.animator.view.TelescopeView
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="的思路記多了塑料袋積分是兩地分居"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:shadowColor="@android:color/black"/>
 
 </LinearLayout>
