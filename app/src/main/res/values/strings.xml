@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Animator</string>
+    <string name="text_hint">哥们，你做到了！\n哈哈</string>
 </resources>
