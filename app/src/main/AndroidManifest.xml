@@ -22,6 +22,7 @@
         <activity android:name=".activity.DrawableActivity"/>
         <activity android:name=".activity.PaintActivity"/>
         <activity android:name=".activity.XfermodeActivity"/>
+        <activity android:name=".activity.ShapeDrawableActivity"/>
     </application>
 
 </manifest>

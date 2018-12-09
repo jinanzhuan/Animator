@@ -8,6 +8,7 @@ import android.widget.Toast;
 import com.test.animator.activity.DrawableActivity;
 import com.test.animator.activity.FrameAnimationActivity;
 import com.test.animator.activity.PaintActivity;
+import com.test.animator.activity.ShapeDrawableActivity;
 import com.test.animator.activity.TweenAnimationActivity;
 import com.test.animator.activity.ValueAnimatorActivity;
 import com.test.animator.activity.XfermodeActivity;
@@ -74,6 +75,9 @@ public class MainActivity extends BaseActivity implements OnItemClickListener {
                 break;
             case 5 :
                 XfermodeActivity.actionStart(mContext);
+                break;
+            case 6 :
+                ShapeDrawableActivity.actionStart(mContext);
                 break;
             default:
                 Toast.makeText(MainActivity.this, "敬请期待！", Toast.LENGTH_SHORT).show();
