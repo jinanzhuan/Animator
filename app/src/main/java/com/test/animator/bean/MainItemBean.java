@@ -64,6 +64,10 @@ public class MainItemBean {
         list.add(bean);
 
         bean = new MainItemBean();
+        bean.setName("Wave");
+        list.add(bean);
+
+        bean = new MainItemBean();
         bean.setName("其他其他");
         list.add(bean);
 

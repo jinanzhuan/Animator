@@ -11,6 +11,7 @@ import com.test.animator.activity.PaintActivity;
 import com.test.animator.activity.ShapeDrawableActivity;
 import com.test.animator.activity.TweenAnimationActivity;
 import com.test.animator.activity.ValueAnimatorActivity;
+import com.test.animator.activity.WaveActivity;
 import com.test.animator.activity.XfermodeActivity;
 import com.test.animator.adapter.DividerGridItemDecoration;
 import com.test.animator.adapter.MainAdapter;
@@ -78,6 +79,9 @@ public class MainActivity extends BaseActivity implements OnItemClickListener {
                 break;
             case 6 :
                 ShapeDrawableActivity.actionStart(mContext);
+                break;
+            case 7 :
+                WaveActivity.actionStart(mContext);
                 break;
             default:
                 Toast.makeText(MainActivity.this, "敬请期待！", Toast.LENGTH_SHORT).show();

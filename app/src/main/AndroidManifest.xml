@@ -23,6 +23,7 @@
         <activity android:name=".activity.PaintActivity"/>
         <activity android:name=".activity.XfermodeActivity"/>
         <activity android:name=".activity.ShapeDrawableActivity"/>
+        <activity android:name=".activity.WaveActivity"/>
     </application>
 
 </manifest>

@@ -4,8 +4,8 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <com.test.animator.view.LoadingImageView
+    <com.test.animator.view.WaveView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
