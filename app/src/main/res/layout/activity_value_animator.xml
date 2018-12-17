@@ -6,7 +6,8 @@
 
     <com.test.animator.view.LoadingImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"/>
 
     <TextView
         android:id="@+id/tv_char"
@@ -19,6 +20,20 @@
 
     <Button
         android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始"/>
+
+    <ImageView
+        android:id="@+id/iv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/phone"/>
+
+    <Button
+        android:id="@+id/btn_keyframe_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="开始"/>

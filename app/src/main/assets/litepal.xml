@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="animator" />
+
+    <version value="100" />
+
+    <list>
+        <mapping class="com.test.animator.bean.TestBean"/>
+    </list>
+</litepal>
